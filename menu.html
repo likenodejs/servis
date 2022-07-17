@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="public/style/menuStyle.css">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <h1>This is good servis</h1>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+
+      var socket = io.connect()
+
+      setTimeout(function () {
+        socket.emit('send mess', {class: 5})
+      }, 2000)
+    </script>
+  </body>
+</html>

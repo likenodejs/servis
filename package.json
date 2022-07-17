@@ -1,0 +1,19 @@
+{
+  "name": "servis",
+  "version": "1.0.0",
+  "description": "This is good servis",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "keywords": [
+    "servis"
+  ],
+  "author": "Vova Ivanov",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "socket.io": "^4.4.1"
+  }
+}
